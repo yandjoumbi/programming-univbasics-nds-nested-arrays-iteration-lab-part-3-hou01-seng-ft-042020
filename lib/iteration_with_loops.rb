@@ -7,6 +7,7 @@ def join_nested_strings(src)
     src.each do |element|
       if element == to_s
        new_str = new_str + element
+       binding.pry
      end
   end
   new_str
