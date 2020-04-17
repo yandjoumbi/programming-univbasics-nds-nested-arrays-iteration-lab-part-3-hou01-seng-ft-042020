@@ -10,6 +10,7 @@ def join_nested_strings(src)
        new_str = new_str + element
      end
   end
+end
   new_str
 end
 
