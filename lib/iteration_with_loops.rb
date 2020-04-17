@@ -5,8 +5,9 @@ def join_nested_strings(src)
   new_str = " "
   src.each do |array|
     array.each do |element|
-       binding.pry
-      if element.class == to_s
+       #binding.pry
+      #if element.class == String
+        if element.is_a? String
        new_str = new_str + element
      end
   end
