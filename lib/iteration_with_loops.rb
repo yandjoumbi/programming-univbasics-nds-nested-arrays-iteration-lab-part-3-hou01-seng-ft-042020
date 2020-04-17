@@ -4,8 +4,9 @@ def join_nested_strings(src)
    Combine all Strings present in the AoA into a single value and return it
   new_str = " "
   src.each do |array|
+     binding.pry
     src.each do |element|
-       binding.pry
+
       if element == to_s
        new_str = new_str + element
 
