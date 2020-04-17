@@ -5,7 +5,7 @@ def join_nested_strings(src)
   src.each do |array|
     src.each do |element|
       if element == to_s
-      new_str.push(element)
+        new_str = new_str + element
       end
     end
   end
