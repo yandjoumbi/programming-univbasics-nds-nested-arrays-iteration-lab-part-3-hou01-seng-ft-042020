@@ -5,24 +5,10 @@ def join_nested_strings(src)
   new_str = ""
   src.each do |array|
     array.each do |element|
-       #binding.pry
-      #if element.class == String
-        if element.is_a? String
+    if element.is_a? String
        new_str = new_str + " " +element
      end
   end
 end
   new_str
 end
-
-#total = 0
-#row_index = 0
-#while row_index < src.count do
-  #src
-  #element_index = 0
-  #while element_index < guessing_game_grid[row_index].count do
-    #total += guessing_game_grid[row_index][element_index]
-    #element_index += 1
-  #end
-  #row_index += 1
-#end
